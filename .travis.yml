@@ -1,8 +1,4 @@
 language: javascript
 
-
-deploy:
-  provider: script
-  script: echo "Hello"
-  on:
-    branch: master
+script:
+  - echo "Hi"
