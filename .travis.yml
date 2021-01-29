@@ -1,6 +1,8 @@
-os: linux
+language: javascript
+
+
 deploy:
   provider: script
-  script: bash scripts/deploy.sh
+  script: echo "Hello"
   on:
     branch: master
